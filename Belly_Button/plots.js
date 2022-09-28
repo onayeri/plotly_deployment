@@ -17,14 +17,14 @@ function init() {
   
 init();
 
-//   <><select id="dropdownMenu">
-//   <option value="dataset1">DataSet1</option>
-//   <option value="dataset2">DataSet2</option>
-// </select><select id="selDataset" onchange="optionChanged(this.value)"></select></>
+  <><select id="dropdownMenu">
+  <option value="dataset1">DataSet1</option>
+  <option value="dataset2">DataSet2</option>
+</select><select id="selDataset" onchange="optionChanged(this.value)"></select></>
 
-// function optionChanged(newSample) {
-//     console.log(newSample);
-// }
+function optionChanged(newSample) {
+    console.log(newSample);
+}
 
 function optionChanged(newSample) {
     buildMetadata(newSample);

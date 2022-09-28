@@ -13,11 +13,12 @@ function buildCharts(sample) {
       x: otu_ids,
       y: sample_values,
       hover_text: otu_labels,
+      type: "bubble"
       mode: "markers",
        markers: {
         size: sample_values,
         color: otu_ids,
-        colorscale : ""
+        // colorscale : "
       }
     }];
 
