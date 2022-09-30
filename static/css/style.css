@@ -1,0 +1,14 @@
+/* body {
+
+    color: #f7f7f7;
+  }
+  .jumbotron {
+    background-image: url('../images/maxresdefault_image.jpg');
+    background-size: 100% 100%;
+    text-align: center;
+  } */
+  
+  .jumbotron mt-3 { 
+    background-image: url('../empowers/src/assets/team1.jpg');
+    background-size: cover;
+    height: 100%;}
